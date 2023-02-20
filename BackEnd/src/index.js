@@ -5,7 +5,7 @@ const app = express()
 
 app.use(express.json())
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb+srv://aashu:root@mini-project-cluster.kzrvbeg.mongodb.net/post-comment-fullstack-DB?retryWrites=true&w=majority",{useNewUrlParser: true})
+mongoose.connect("mongodb+srv://PoojaFunctionUp:PA44yjApvizLJGOY@cluster0.newxzkv.mongodb.net/Post-comment?retryWrites=true&w=majority",{useNewUrlParser: true})
 .then(()=>console.log("MongoDB is Connected"))
 .catch((error)=>console.log(error))
 
